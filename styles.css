@@ -91,7 +91,6 @@ div.tfq, div.fitbq {
     margin-bottom: 48px;
 }
 
-.button-group.hide-all-buttons, .button-group.reveal-all-button {
-    padding-bottom: 40px;
-    margin-bottom: 40px;
+.button-group button.hide-all-button, .button-group button.reveal-all-button {
+    margin-bottom: 60px;
 }
