@@ -1,13 +1,8 @@
-html {
-    margin: 0;
-    padding: 0;
-    display: flex;
-}
-
 body {
     font-family: Helvetica, Arial, sans-serif;
     background-color: #202124;
     line-height: 32px;
+    margin: 0;
 }
 
 h1, h2, h3 {
@@ -38,6 +33,11 @@ h3 {
     font-size: 24px;
 }
 
+p {
+    padding-bottom: 16px;
+    line-height: 48px;
+}
+
 span {
     background-color: #9aa0a6;
 }
@@ -45,6 +45,7 @@ span {
 p, span {
     color: #9aa0a6;
     text-align: center;
+    font-size: 26px;
 }
 
 button {
@@ -53,6 +54,11 @@ button {
     height: 48px;
     border: solid 3px #161718;
     border-radius: 12px;
+    font-size: 24px;
+}
+
+button:hover {
+    font-size: 28px;
 }
 
 .button-group {
@@ -74,4 +80,18 @@ div.tfq, div.fitbq {
 
 .clear-tfq {
     margin: 60px;
+}
+
+.fitbq {
+    display: flex;
+    flex-direction: column;
+}
+
+.reveal-button26 {
+    margin-bottom: 48px;
+}
+
+.button-group.hide-all-buttons, .button-group.reveal-all-button {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
 }
