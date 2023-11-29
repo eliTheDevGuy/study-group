@@ -19,10 +19,11 @@ h1 {
 
 h2 {
     font-size: 34px;
+    color: #9aa0a6;
+
 }
 
 h2, h3{
-    color: #0e0f0f;
     font-weight: 900;
 }
 
@@ -31,6 +32,7 @@ h3 {
     font-style: italic;
     margin-bottom: 0;
     font-size: 24px;
+    color: #ade9e9;
 }
 
 p {
@@ -87,10 +89,7 @@ div.tfq, div.fitbq {
     flex-direction: column;
 }
 
-.reveal-button26 {
-    margin-bottom: 48px;
-}
-
 .button-group button.hide-all-button, .button-group button.reveal-all-button {
     margin-bottom: 60px;
+    margin-top: 50px;
 }
